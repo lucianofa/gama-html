@@ -1,0 +1,2486 @@
+{
+  "name": "Business website",
+  "description": null,
+  "contentType": "json",
+  "fileVersion": 3,
+  "type": "WebProject",
+  "theme": "napkin",
+  "contents": {
+    "id": 42187304,
+    "appName": "Business website",
+    "saveTime": "2018-04-10T10:31:18.596Z",
+    "lastNotificationId": 0,
+    "theme": "napkin",
+    "isCrazy": true,
+    "defaultFontFamily": "TomsHandwritten",
+    "pageGroups": [
+      {
+        "type": "sketch.framework.PageGroup",
+        "properties": {
+          "id": "cb672032-30f3-de0e-0d94-b661486fe685",
+          "name": "Default group",
+          "pageIds": [
+            "69bfe3c5-cd6e-5c0c-2122-8093d2268c3c",
+            "28028100-044a-abfc-f6df-b219211062a3",
+            "107abf34-2dca-838b-207f-c07bf3c0347f"
+          ]
+        }
+      }
+    ],
+    "satelliteProjects": [],
+    "extraParameters": null,
+    "pages": [
+      {
+        "version": 1,
+        "id": "69bfe3c5-cd6e-5c0c-2122-8093d2268c3c",
+        "type": "sketch.ui.pages.PortableDevicePage",
+        "name": "Home",
+        "background": {
+          "value": null,
+          "type": null,
+          "lineWidth": 0,
+          "__type__": "sketch.framework.Brush"
+        },
+        "children": [
+          {
+            "type": "sketch.ui.common.PortableDevice",
+            "version": 1,
+            "id": "0f659515-ed7b-9b18-8e41-bcd759219f93",
+            "properties": {
+              "width": 3704,
+              "height": 2288
+            },
+            "children": [
+              {
+                "type": "sketch.ui.common.Image",
+                "version": 6,
+                "id": "cac1799f-db56-fbbb-65aa-2a8e7513027e",
+                "properties": {
+                  "width": 1024,
+                  "height": 355,
+                  "name": null,
+                  "left": 0,
+                  "top": 64,
+                  "source.__type__": "sketch.framework.ImageSourceNone",
+                  "clipSelf": true
+                }
+              },
+              {
+                "type": "sketch.framework.GroupContainer",
+                "version": 1,
+                "id": "78d973f0-2853-e1af-7a37-0e646e04d1bd",
+                "properties": {
+                  "width": 123,
+                  "height": 45,
+                  "name": null,
+                  "left": 87,
+                  "top": 10,
+                  "enableGroupLocking": true
+                },
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "691100cc-ccfa-284d-8c49-9bfa043b02e7",
+                    "properties": {
+                      "width": 40,
+                      "height": 40,
+                      "left": 0,
+                      "top": 3,
+                      "anchor.bottom": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "source.__type__": "sketch.framework.ImageSourceNone",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "3f19d513-c9b1-e2ef-e7ec-3a6a73144296",
+                    "properties": {
+                      "width": 69,
+                      "height": 45,
+                      "left": 54,
+                      "top": 0,
+                      "anchor.left": false,
+                      "anchor.right": true,
+                      "anchor.bottom": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "text": "Logo",
+                      "textAlign": "center",
+                      "textVerticalAlign": "middle",
+                      "font.size": 46,
+                      "font.__type__": "sketch.framework.Font"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "sketch.framework.TemplatedElement",
+                "version": 1,
+                "id": "58399a96-c7e8-dc34-62e9-0e5f6a4ba76c",
+                "properties": {
+                  "width": 355,
+                  "height": 29,
+                  "name": null,
+                  "left": 601,
+                  "top": 18,
+                  "dropPositioning": "horizontal",
+                  "enableGroupLocking": true,
+                  "templateId": "ui.web.templates.LinkBarTemplate"
+                },
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "d8e95313-2909-92cd-4acc-b5f48d1ac4b4",
+                    "properties": {
+                      "width": 32,
+                      "height": 19,
+                      "name": "Label [1688]",
+                      "left": 0,
+                      "top": 5,
+                      "verticalAlignment": "center",
+                      "text": "Home",
+                      "font.underline": true,
+                      "font.color.value": "web.link.text",
+                      "font.color.type": "resource",
+                      "font.color.__type__": "sketch.framework.Brush",
+                      "font.__type__": "sketch.framework.Font",
+                      "scaleWithFontSize": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "ef6528a1-62d1-524f-d295-42739deb6b61",
+                    "properties": {
+                      "width": 38,
+                      "height": 19,
+                      "name": "Label [1689]",
+                      "left": 70,
+                      "top": 5,
+                      "verticalAlignment": "center",
+                      "text": "Our service",
+                      "font.underline": true,
+                      "font.color.value": "web.link.text",
+                      "font.color.type": "resource",
+                      "font.color.__type__": "sketch.framework.Brush",
+                      "font.__type__": "sketch.framework.Font",
+                      "scaleWithFontSize": true,
+                      "pageLink": "107abf34-2dca-838b-207f-c07bf3c0347f"
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "88d8bd5f-5abd-481e-49b9-8ac28d619521",
+                    "properties": {
+                      "width": 42,
+                      "height": 19,
+                      "name": "Label [1714]",
+                      "left": 178,
+                      "top": 5,
+                      "verticalAlignment": "center",
+                      "text": "About",
+                      "font.underline": true,
+                      "font.color.value": "web.link.text",
+                      "font.color.type": "resource",
+                      "font.color.__type__": "sketch.framework.Brush",
+                      "font.__type__": "sketch.framework.Font",
+                      "scaleWithFontSize": true,
+                      "pageLink": "28028100-044a-abfc-f6df-b219211062a3"
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "d1c0c53f-f6c7-c0be-9769-2c795bef8d16",
+                    "properties": {
+                      "width": 27,
+                      "height": 19,
+                      "name": "Label [1714]",
+                      "left": 226,
+                      "top": 5,
+                      "verticalAlignment": "center",
+                      "text": "Blog",
+                      "font.underline": true,
+                      "font.color.value": "web.link.text",
+                      "font.color.type": "resource",
+                      "font.color.__type__": "sketch.framework.Brush",
+                      "font.__type__": "sketch.framework.Font",
+                      "scaleWithFontSize": true
+                    }
+                  }
+                ],
+                "states": {
+                  "default": {
+                    "properties": {}
+                  }
+                }
+              },
+              {
+                "type": "sketch.ui.common.Icon",
+                "version": 6,
+                "id": "2f868bb2-e299-4ab3-8658-e0abf8f6c80d",
+                "properties": {
+                  "width": 19,
+                  "height": 24,
+                  "name": "Icon [49c02a84-1017-775f-a96c-13c0f1b4935b]",
+                  "left": 968,
+                  "top": 20,
+                  "backgroundBrush.value": "rgba(104,104,104,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush",
+                  "clipSelf": true,
+                  "source.width": 64,
+                  "source.height": 64,
+                  "source.url": "https://cdn2.iconfinder.com/data/icons/social-messaging-productivity-1/128/search-64.png",
+                  "source.__type__": "sketch.framework.ImageSourceURL"
+                }
+              },
+              {
+                "type": "sketch.framework.GroupContainer",
+                "version": 1,
+                "id": "a6df3945-5fdf-024e-2784-965983261dcb",
+                "properties": {
+                  "width": 248,
+                  "height": 310,
+                  "left": 77,
+                  "top": 471,
+                  "enableGroupLocking": true
+                },
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Image",
+                    "version": 6,
+                    "id": "02018c87-c312-cc8a-8d12-5965c6b446a6",
+                    "properties": {
+                      "width": 248,
+                      "height": 166,
+                      "name": "Image [6df9a314-a731-971f-fb3c-e2b0850b4315]",
+                      "left": 0,
+                      "top": 0,
+                      "source.__type__": "sketch.framework.ImageSourceNone",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.framework.GroupContainer",
+                    "version": 1,
+                    "id": "3873e482-3d8c-e1bd-4385-9e54ff4c0001",
+                    "properties": {
+                      "width": 214,
+                      "height": 134.83420213884574,
+                      "left": 9,
+                      "top": 175.16579786115426,
+                      "enableGroupLocking": true
+                    },
+                    "children": [
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "8c28950c-2494-11b2-dcf1-de87ea88088a",
+                        "properties": {
+                          "width": 93,
+                          "height": 29,
+                          "name": null,
+                          "left": 0.99855310398561414,
+                          "top": 0,
+                          "text": "Heading 2",
+                          "font.size": 34,
+                          "font.__type__": "sketch.framework.Font",
+                          "scaleWithFontSize": true,
+                          "pageLink": "107abf34-2dca-838b-207f-c07bf3c0347f"
+                        },
+                        "tags": "Primitive,H2"
+                      },
+                      {
+                        "type": "sketch.ui.common.TextBlock",
+                        "version": 2,
+                        "id": "f235a53a-6bdf-475d-71c2-5213287d471b",
+                        "properties": {
+                          "width": 214,
+                          "height": 95,
+                          "name": null,
+                          "left": 0,
+                          "top": 39.83420213884574,
+                          "multiLine": true,
+                          "clipSelf": true
+                        },
+                        "tags": "Primitive,P"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "sketch.framework.GroupContainer",
+                "version": 1,
+                "id": "9c55b411-c77a-e240-37a6-270b98783f13",
+                "properties": {
+                  "width": 248,
+                  "height": 310,
+                  "left": 708,
+                  "top": 471,
+                  "enableGroupLocking": true
+                },
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Image",
+                    "version": 6,
+                    "id": "9d0d4064-2c24-25c1-fbfe-283259a32112",
+                    "properties": {
+                      "width": 248,
+                      "height": 166,
+                      "name": "Image [6df9a314-a731-971f-fb3c-e2b0850b4315]",
+                      "left": 0,
+                      "top": 0,
+                      "source.__type__": "sketch.framework.ImageSourceNone",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.framework.GroupContainer",
+                    "version": 1,
+                    "id": "489fabc8-00d1-bb0a-7f63-9ad43df3bd4a",
+                    "properties": {
+                      "width": 214,
+                      "height": 134.83420213884574,
+                      "left": 9,
+                      "top": 175.16579786115426,
+                      "enableGroupLocking": true
+                    },
+                    "children": [
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "c81fb1ce-5c30-edb3-0d3b-c88c76400788",
+                        "properties": {
+                          "width": 93,
+                          "height": 29,
+                          "name": null,
+                          "left": 0.99855310398561414,
+                          "top": 0,
+                          "text": "Heading 2",
+                          "font.size": 34,
+                          "font.__type__": "sketch.framework.Font",
+                          "scaleWithFontSize": true,
+                          "pageLink": "107abf34-2dca-838b-207f-c07bf3c0347f"
+                        },
+                        "tags": "Primitive,H2"
+                      },
+                      {
+                        "type": "sketch.ui.common.TextBlock",
+                        "version": 2,
+                        "id": "04fce9ae-5a80-a42a-f3cf-a98d0914561b",
+                        "properties": {
+                          "width": 214,
+                          "height": 95,
+                          "name": null,
+                          "left": 0,
+                          "top": 39.83420213884574,
+                          "multiLine": true,
+                          "clipSelf": true
+                        },
+                        "tags": "Primitive,P"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "sketch.framework.GroupContainer",
+                "version": 1,
+                "id": "ea44926a-f87a-bf65-8671-c05a861eecdc",
+                "properties": {
+                  "width": 248,
+                  "height": 310,
+                  "left": 395,
+                  "top": 471,
+                  "enableGroupLocking": true
+                },
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Image",
+                    "version": 6,
+                    "id": "dd09ab69-8f50-f148-4b1d-2158a39abfdf",
+                    "properties": {
+                      "width": 248,
+                      "height": 166,
+                      "name": "Image [6df9a314-a731-971f-fb3c-e2b0850b4315]",
+                      "left": 0,
+                      "top": 0,
+                      "source.__type__": "sketch.framework.ImageSourceNone",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.framework.GroupContainer",
+                    "version": 1,
+                    "id": "4fa962ad-2975-15c1-fb4a-4144c6297359",
+                    "properties": {
+                      "width": 214,
+                      "height": 134.83420213884574,
+                      "left": 9,
+                      "top": 175.16579786115426,
+                      "enableGroupLocking": true
+                    },
+                    "children": [
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "9fa6cebc-a5cb-e35a-9381-9792dbc60b9b",
+                        "properties": {
+                          "width": 93,
+                          "height": 29,
+                          "name": null,
+                          "left": 0.99855310398561414,
+                          "top": 0,
+                          "text": "Heading 2",
+                          "font.size": 34,
+                          "font.__type__": "sketch.framework.Font",
+                          "scaleWithFontSize": true,
+                          "pageLink": "107abf34-2dca-838b-207f-c07bf3c0347f"
+                        },
+                        "tags": "Primitive,H2"
+                      },
+                      {
+                        "type": "sketch.ui.common.TextBlock",
+                        "version": 2,
+                        "id": "b1ecdc72-bb4c-b147-d353-1d296d4876d7",
+                        "properties": {
+                          "width": 214,
+                          "height": 95,
+                          "name": null,
+                          "left": 0,
+                          "top": 39.83420213884574,
+                          "multiLine": true,
+                          "clipSelf": true
+                        },
+                        "tags": "Primitive,P"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "fe793bf6-633b-50c9-662f-e69c48551bf5",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "5efb344a-339b-9c4f-b7a5-e50f1288cf5f",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.GroupContainer",
+                "version": 1,
+                "id": "75252927-8fa6-91bb-0a44-ebfb7d51961b",
+                "properties": {
+                  "width": 1022,
+                  "height": 112,
+                  "left": -2,
+                  "top": 1067,
+                  "enableGroupLocking": true
+                },
+                "children": [
+                  {
+                    "type": "sketch.framework.Rectangle",
+                    "version": 3,
+                    "id": "e4952988-def0-13ca-8f76-a974ce1a317b",
+                    "properties": {
+                      "width": 1022,
+                      "height": 112,
+                      "left": 0,
+                      "top": 0
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "f0614d35-09f4-d56d-2162-507e6043b02e",
+                    "properties": {
+                      "width": 106,
+                      "height": 29,
+                      "name": "Label [03006070-8d20-1349-4b02-bea9fe2f7b0b]",
+                      "left": 71.998553103985614,
+                      "top": 57.113440641842317,
+                      "text": "Copyright ",
+                      "font.size": 34,
+                      "font.__type__": "sketch.framework.Font",
+                      "scaleWithFontSize": true
+                    },
+                    "tags": "Primitive,H3"
+                  },
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "078e0f4b-91ca-c76e-e991-9d7c5ee8e875",
+                    "properties": {
+                      "width": 31,
+                      "height": 33.886559358157683,
+                      "name": null,
+                      "left": 34,
+                      "top": 57.113440641842317,
+                      "backgroundBrush.value": "rgba(104,104,104,1)",
+                      "backgroundBrush.type": "color",
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "clipSelf": true,
+                      "source.url": "https://cdn2.iconfinder.com/data/icons/color-svg-vector-icons-part-2/512/copyright_right_of_first_publication-64.png",
+                      "source.__type__": "sketch.framework.ImageSourceURL"
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "418421ac-e5cf-6374-46c7-5a76cc751f39",
+                    "properties": {
+                      "width": 188,
+                      "height": 29,
+                      "name": null,
+                      "left": 402,
+                      "top": 59.855167915427046,
+                      "text": "Terms & conditions",
+                      "font.size": 34,
+                      "font.__type__": "sketch.framework.Font",
+                      "scaleWithFontSize": true
+                    },
+                    "tags": "Primitive,H3"
+                  },
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "2dd0dbb7-3f0b-146f-3ede-eee54f35ea9a",
+                    "properties": {
+                      "width": 32,
+                      "height": 35,
+                      "name": null,
+                      "left": 802,
+                      "top": 9,
+                      "backgroundBrush.value": "rgba(104,104,104,1)",
+                      "backgroundBrush.type": "color",
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "clipSelf": true,
+                      "source.url": "https://cdn3.iconfinder.com/data/icons/picons-social/57/03-twitter-64.png",
+                      "source.__type__": "sketch.framework.ImageSourceURL"
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "a868d7d6-1811-36f5-0c4f-9b33d2002087",
+                    "properties": {
+                      "width": 32,
+                      "height": 28,
+                      "name": null,
+                      "left": 897,
+                      "top": 12,
+                      "backgroundBrush.value": "rgba(104,104,104,1)",
+                      "backgroundBrush.type": "color",
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "clipSelf": true,
+                      "source.url": "https://cdn4.iconfinder.com/data/icons/picons-social/57/24-snapchat-2-64.png",
+                      "source.__type__": "sketch.framework.ImageSourceURL"
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "b0af6094-077e-9bf5-ce67-6285ff52c290",
+                    "properties": {
+                      "width": 38,
+                      "height": 28,
+                      "name": null,
+                      "left": 850,
+                      "top": 12,
+                      "backgroundBrush.value": "rgba(104,104,104,1)",
+                      "backgroundBrush.type": "color",
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "clipSelf": true,
+                      "source.url": "https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/Facebook-64.png",
+                      "source.__type__": "sketch.framework.ImageSourceURL"
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "40906366-218b-0fc0-36b8-d500256f6d0f",
+                    "properties": {
+                      "width": 33,
+                      "height": 35,
+                      "name": null,
+                      "left": 945,
+                      "top": 9,
+                      "backgroundBrush.value": "rgba(104,104,104,1)",
+                      "backgroundBrush.type": "color",
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "clipSelf": true,
+                      "source.url": "https://cdn3.iconfinder.com/data/icons/picons-social/57/38-instagram-64.png",
+                      "source.__type__": "sketch.framework.ImageSourceURL"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "e3e40ed5-ef54-dac0-3b65-e58d67d815fd",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "adc6db78-879d-1b80-ea82-164455a40ba9",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "34aafd87-4c9c-19e6-b574-42dbc6c02315",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "2f19d616-4d43-63c6-31d8-3945b34e6de5",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "efe7fc58-798a-b69f-9b4a-2f97f8ae06ed",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "c4ba15eb-05e6-aebd-9e0f-903232e22a18",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "7915d191-a5ae-4ca3-5a66-97260bf94a60",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "a14f94ac-3430-7394-1898-bd51bd1292e4",
+                "properties": {
+                  "width": 257,
+                  "height": 29,
+                  "name": null,
+                  "left": 380.98728254555863,
+                  "top": 850.45727593751371,
+                  "text": "Used by companies such as:",
+                  "font.size": 34,
+                  "font.__type__": "sketch.framework.Font",
+                  "scaleWithFontSize": true
+                },
+                "tags": "Primitive,H3"
+              },
+              {
+                "type": "sketch.framework.GroupContainer",
+                "version": 1,
+                "id": "a0e0e02b-74bd-db6d-6353-b55ab53b5ae6",
+                "properties": {
+                  "width": 123,
+                  "height": 45,
+                  "name": null,
+                  "left": 191,
+                  "top": 908,
+                  "enableGroupLocking": true
+                },
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "edea2ff8-275c-17de-28d5-7d58bdab350a",
+                    "properties": {
+                      "width": 40,
+                      "height": 40,
+                      "left": 0,
+                      "top": 3,
+                      "anchor.bottom": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "source.__type__": "sketch.framework.ImageSourceNone",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "ae379313-7755-9121-8676-11254e2496ea",
+                    "properties": {
+                      "width": 69,
+                      "height": 45,
+                      "left": 54,
+                      "top": 0,
+                      "anchor.left": false,
+                      "anchor.right": true,
+                      "anchor.bottom": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "text": "Logo",
+                      "textAlign": "center",
+                      "textVerticalAlign": "middle",
+                      "font.size": 46,
+                      "font.__type__": "sketch.framework.Font"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "sketch.framework.GroupContainer",
+                "version": 1,
+                "id": "fefcdc2a-cffc-3eb3-debc-58eb1198191e",
+                "properties": {
+                  "width": 123,
+                  "height": 45,
+                  "name": null,
+                  "left": 447,
+                  "top": 908,
+                  "enableGroupLocking": true
+                },
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "5ac73324-da1d-f036-203e-a8081206f53f",
+                    "properties": {
+                      "width": 40,
+                      "height": 40,
+                      "left": 0,
+                      "top": 3,
+                      "anchor.bottom": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "source.__type__": "sketch.framework.ImageSourceNone",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "6ecdb632-bfb8-ad1c-ff0d-1d27c137dca9",
+                    "properties": {
+                      "width": 69,
+                      "height": 45,
+                      "left": 54,
+                      "top": 0,
+                      "anchor.left": false,
+                      "anchor.right": true,
+                      "anchor.bottom": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "text": "Logo",
+                      "textAlign": "center",
+                      "textVerticalAlign": "middle",
+                      "font.size": 46,
+                      "font.__type__": "sketch.framework.Font"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "sketch.framework.GroupContainer",
+                "version": 1,
+                "id": "10d10e38-1f15-feb6-d086-dca6d5c02977",
+                "properties": {
+                  "width": 123,
+                  "height": 45,
+                  "name": null,
+                  "left": 702,
+                  "top": 911,
+                  "enableGroupLocking": true
+                },
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "f7eccb2b-de80-d9fa-31d9-4cc6b3c693a7",
+                    "properties": {
+                      "width": 40,
+                      "height": 40,
+                      "left": 0,
+                      "top": 3,
+                      "anchor.bottom": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "source.__type__": "sketch.framework.ImageSourceNone",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "f2b93e64-b7de-98db-f51c-4cf81ff327c8",
+                    "properties": {
+                      "width": 69,
+                      "height": 45,
+                      "left": 54,
+                      "top": 0,
+                      "anchor.left": false,
+                      "anchor.right": true,
+                      "anchor.bottom": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "text": "Logo",
+                      "textAlign": "center",
+                      "textVerticalAlign": "middle",
+                      "font.size": 46,
+                      "font.__type__": "sketch.framework.Font"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "sketch.framework.GroupContainer",
+                "version": 1,
+                "id": "a29e01ee-8328-a6eb-f3cc-b5548719cf4e",
+                "properties": {
+                  "width": 123,
+                  "height": 45,
+                  "name": null,
+                  "left": 325,
+                  "top": 983,
+                  "enableGroupLocking": true
+                },
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "4522af61-0df6-6977-2569-8a4f8e7e16e9",
+                    "properties": {
+                      "width": 40,
+                      "height": 40,
+                      "left": 0,
+                      "top": 3,
+                      "anchor.bottom": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "source.__type__": "sketch.framework.ImageSourceNone",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "b386be4a-2684-c0ac-55ea-0f73b1eddd2f",
+                    "properties": {
+                      "width": 69,
+                      "height": 45,
+                      "left": 54,
+                      "top": 0,
+                      "anchor.left": false,
+                      "anchor.right": true,
+                      "anchor.bottom": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "text": "Logo",
+                      "textAlign": "center",
+                      "textVerticalAlign": "middle",
+                      "font.size": 46,
+                      "font.__type__": "sketch.framework.Font"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "sketch.framework.GroupContainer",
+                "version": 1,
+                "id": "0647295d-80a7-d71f-46d1-b41e9484e446",
+                "properties": {
+                  "width": 123,
+                  "height": 45,
+                  "name": null,
+                  "left": 601,
+                  "top": 986,
+                  "enableGroupLocking": true
+                },
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "478c6425-134d-402d-5a98-7b9ba8683545",
+                    "properties": {
+                      "width": 40,
+                      "height": 40,
+                      "left": 0,
+                      "top": 3,
+                      "anchor.bottom": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "source.__type__": "sketch.framework.ImageSourceNone",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "7b886e4f-70cf-e347-b9a2-3a3d60620a4e",
+                    "properties": {
+                      "width": 69,
+                      "height": 45,
+                      "left": 54,
+                      "top": 0,
+                      "anchor.left": false,
+                      "anchor.right": true,
+                      "anchor.bottom": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "text": "Logo",
+                      "textAlign": "center",
+                      "textVerticalAlign": "middle",
+                      "font.size": 46,
+                      "font.__type__": "sketch.framework.Font"
+                    }
+                  }
+                ]
+              }
+            ],
+            "panelProperties": {
+              "type": "sketch.ui.common.PortableDevicePanel",
+              "version": 1,
+              "id": "a59dce89-c0df-0b36-609b-c273d57badac",
+              "properties": {
+                "width": 1024,
+                "height": 1179,
+                "left": 1340,
+                "top": 760,
+                "clipSelf": true
+              }
+            }
+          }
+        ],
+        "isDeleted": false,
+        "groupId": "cb672032-30f3-de0e-0d94-b661486fe685",
+        "screenType": "Browser"
+      },
+      {
+        "version": 1,
+        "id": "28028100-044a-abfc-f6df-b219211062a3",
+        "type": "sketch.ui.pages.PortableDevicePage",
+        "name": "About",
+        "background": {
+          "value": null,
+          "type": null,
+          "lineWidth": 0,
+          "__type__": "sketch.framework.Brush"
+        },
+        "children": [
+          {
+            "type": "sketch.ui.common.PortableDevice",
+            "version": 1,
+            "id": "f8cdf5ac-bd0f-29fc-31f9-c18cba5c88b4",
+            "properties": {
+              "width": 3704,
+              "height": 2465
+            },
+            "children": [
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "129e7210-24ec-068d-4f6b-253d1a962abc",
+                "properties": {
+                  "width": 129,
+                  "height": 45,
+                  "name": null,
+                  "left": 117.99809618945483,
+                  "top": 180.21815508046598,
+                  "text": "About us",
+                  "font.size": 52,
+                  "font.__type__": "sketch.framework.Font",
+                  "scaleWithFontSize": true
+                },
+                "tags": "Primitive,H2"
+              },
+              {
+                "type": "sketch.framework.GroupContainer",
+                "version": 1,
+                "id": "a3156cb1-2691-1c16-5650-7659eb5d8ef6",
+                "properties": {
+                  "width": 123,
+                  "height": 45,
+                  "name": null,
+                  "left": 87,
+                  "top": 10,
+                  "enableGroupLocking": true
+                },
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "77b1ed61-81fc-0f8f-f101-790016e9a0fe",
+                    "properties": {
+                      "width": 40,
+                      "height": 40,
+                      "left": 0,
+                      "top": 3,
+                      "anchor.bottom": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "source.__type__": "sketch.framework.ImageSourceNone",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "db0fb9c8-647f-654f-c77f-97d6fd308858",
+                    "properties": {
+                      "width": 69,
+                      "height": 45,
+                      "left": 54,
+                      "top": 0,
+                      "anchor.left": false,
+                      "anchor.right": true,
+                      "anchor.bottom": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "text": "Logo",
+                      "textAlign": "center",
+                      "textVerticalAlign": "middle",
+                      "font.size": 46,
+                      "font.__type__": "sketch.framework.Font"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "sketch.ui.common.TextBlock",
+                "version": 2,
+                "id": "08ea8ec0-3f47-b33f-a462-dec3638fa155",
+                "properties": {
+                  "width": 350,
+                  "height": 486,
+                  "name": null,
+                  "left": 87,
+                  "top": 270,
+                  "multiLine": true,
+                  "clipSelf": true
+                },
+                "tags": "Primitive,P"
+              },
+              {
+                "type": "sketch.framework.TemplatedElement",
+                "version": 1,
+                "id": "5c6f8d88-bf62-62ef-6d19-2a8168f2dfd7",
+                "properties": {
+                  "width": 355,
+                  "height": 29,
+                  "name": null,
+                  "left": 601,
+                  "top": 18,
+                  "dropPositioning": "horizontal",
+                  "enableGroupLocking": true,
+                  "templateId": "ui.web.templates.LinkBarTemplate"
+                },
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "60620c4f-95d3-e33c-3eba-ae94fd621b9c",
+                    "properties": {
+                      "width": 32,
+                      "height": 19,
+                      "name": "Label [1688]",
+                      "left": 0,
+                      "top": 5,
+                      "verticalAlignment": "center",
+                      "text": "Home",
+                      "font.underline": true,
+                      "font.color.value": "web.link.text",
+                      "font.color.type": "resource",
+                      "font.color.__type__": "sketch.framework.Brush",
+                      "font.__type__": "sketch.framework.Font",
+                      "scaleWithFontSize": true,
+                      "pageLink": "69bfe3c5-cd6e-5c0c-2122-8093d2268c3c"
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "5c67aa71-f02d-0cc2-805b-533fee7b846a",
+                    "properties": {
+                      "width": 70,
+                      "height": 19,
+                      "name": "Label [1689]",
+                      "left": 70,
+                      "top": 5,
+                      "verticalAlignment": "center",
+                      "text": "Our service",
+                      "font.underline": true,
+                      "font.color.value": "web.link.text",
+                      "font.color.type": "resource",
+                      "font.color.__type__": "sketch.framework.Brush",
+                      "font.__type__": "sketch.framework.Font",
+                      "scaleWithFontSize": true,
+                      "pageLink": "107abf34-2dca-838b-207f-c07bf3c0347f"
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "331204b7-47a5-add8-f401-e4fb69c69bd0",
+                    "properties": {
+                      "width": 38,
+                      "height": 19,
+                      "name": "Label [1714]",
+                      "left": 178,
+                      "top": 5,
+                      "verticalAlignment": "center",
+                      "text": "About",
+                      "font.underline": true,
+                      "font.color.value": "web.link.text",
+                      "font.color.type": "resource",
+                      "font.color.__type__": "sketch.framework.Brush",
+                      "font.__type__": "sketch.framework.Font",
+                      "scaleWithFontSize": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "5d260544-4c30-6d1c-e959-ae00238b7d6c",
+                    "properties": {
+                      "width": 27,
+                      "height": 19,
+                      "name": "Label [1714]",
+                      "left": 254,
+                      "top": 5,
+                      "verticalAlignment": "center",
+                      "text": "Blog",
+                      "font.underline": true,
+                      "font.color.value": "web.link.text",
+                      "font.color.type": "resource",
+                      "font.color.__type__": "sketch.framework.Brush",
+                      "font.__type__": "sketch.framework.Font",
+                      "scaleWithFontSize": true
+                    }
+                  }
+                ],
+                "states": {
+                  "default": {
+                    "properties": {}
+                  }
+                }
+              },
+              {
+                "type": "sketch.ui.common.Icon",
+                "version": 6,
+                "id": "28ce2b13-cafa-4990-d6a5-71775849458d",
+                "properties": {
+                  "width": 19,
+                  "height": 24,
+                  "name": "Icon [49c02a84-1017-775f-a96c-13c0f1b4935b]",
+                  "left": 968,
+                  "top": 20,
+                  "backgroundBrush.value": "rgba(104,104,104,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush",
+                  "source.width": 64,
+                  "source.height": 64,
+                  "source.url": "https://cdn2.iconfinder.com/data/icons/social-messaging-productivity-1/128/search-64.png",
+                  "source.__type__": "sketch.framework.ImageSourceURL",
+                  "clipSelf": true
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "bfff9f43-680e-5429-ac74-2515fb065901",
+                "properties": {
+                  "width": 1022,
+                  "height": 112,
+                  "left": 2,
+                  "top": 836
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "a7ad6259-e3bb-aae5-1b62-387a2894a20d",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "e581bf38-c615-020a-538a-ffa04a10ef07",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "63382254-ddef-3459-00e9-002af62a4970",
+                "properties": {
+                  "width": 106,
+                  "height": 29,
+                  "name": "Label [03006070-8d20-1349-4b02-bea9fe2f7b0b]",
+                  "left": 73.998553103985614,
+                  "top": 893.11344064184232,
+                  "text": "Copyright ",
+                  "font.size": 34,
+                  "font.__type__": "sketch.framework.Font",
+                  "scaleWithFontSize": true
+                },
+                "tags": "Primitive,H3"
+              },
+              {
+                "type": "sketch.ui.common.Icon",
+                "version": 6,
+                "id": "85a34a27-1a71-5567-af7b-565a01857586",
+                "properties": {
+                  "width": 31,
+                  "height": 33.886559358157683,
+                  "name": null,
+                  "left": 36,
+                  "top": 893.11344064184232,
+                  "backgroundBrush.value": "rgba(104,104,104,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush",
+                  "source.width": 64,
+                  "source.height": 64,
+                  "source.url": "https://cdn2.iconfinder.com/data/icons/color-svg-vector-icons-part-2/512/copyright_right_of_first_publication-64.png",
+                  "source.__type__": "sketch.framework.ImageSourceURL",
+                  "clipSelf": true
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "d3120100-67ef-bbd6-9fda-9eb5c07ada54",
+                "properties": {
+                  "width": 57,
+                  "height": 29,
+                  "name": null,
+                  "left": 507.99855310398561,
+                  "top": 896.11344064184232,
+                  "text": "Terms& conditions",
+                  "font.size": 34,
+                  "font.__type__": "sketch.framework.Font",
+                  "scaleWithFontSize": true
+                },
+                "tags": "Primitive,H3"
+              },
+              {
+                "type": "sketch.ui.common.Icon",
+                "version": 6,
+                "id": "7a67c6b9-7f82-7615-cc6b-ef7ffc4c8048",
+                "properties": {
+                  "width": 32,
+                  "height": 35,
+                  "name": null,
+                  "left": 804,
+                  "top": 845,
+                  "backgroundBrush.value": "rgba(104,104,104,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush",
+                  "source.width": 64,
+                  "source.height": 64,
+                  "source.url": "https://cdn3.iconfinder.com/data/icons/picons-social/57/03-twitter-64.png",
+                  "source.__type__": "sketch.framework.ImageSourceURL",
+                  "clipSelf": true
+                }
+              },
+              {
+                "type": "sketch.ui.common.Icon",
+                "version": 6,
+                "id": "713530b2-1791-6d8a-6251-bae7e3cc2284",
+                "properties": {
+                  "width": 32,
+                  "height": 28,
+                  "name": null,
+                  "left": 899,
+                  "top": 848,
+                  "backgroundBrush.value": "rgba(104,104,104,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush",
+                  "source.width": 64,
+                  "source.height": 64,
+                  "source.url": "https://cdn4.iconfinder.com/data/icons/picons-social/57/24-snapchat-2-64.png",
+                  "source.__type__": "sketch.framework.ImageSourceURL",
+                  "clipSelf": true
+                }
+              },
+              {
+                "type": "sketch.ui.common.Icon",
+                "version": 6,
+                "id": "954fb549-2aca-c95a-b89b-80942eb839a4",
+                "properties": {
+                  "width": 38,
+                  "height": 28,
+                  "name": null,
+                  "left": 852,
+                  "top": 848,
+                  "backgroundBrush.value": "rgba(104,104,104,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush",
+                  "source.width": 64,
+                  "source.height": 64,
+                  "source.url": "https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/Facebook-64.png",
+                  "source.__type__": "sketch.framework.ImageSourceURL",
+                  "clipSelf": true
+                }
+              },
+              {
+                "type": "sketch.ui.common.Icon",
+                "version": 6,
+                "id": "818420a9-7d6a-6bfa-b387-74f5f1cba55d",
+                "properties": {
+                  "width": 33,
+                  "height": 35,
+                  "name": null,
+                  "left": 947,
+                  "top": 845,
+                  "backgroundBrush.value": "rgba(104,104,104,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush",
+                  "source.width": 64,
+                  "source.height": 64,
+                  "source.url": "https://cdn3.iconfinder.com/data/icons/picons-social/57/38-instagram-64.png",
+                  "source.__type__": "sketch.framework.ImageSourceURL",
+                  "clipSelf": true
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "fb36f79b-42f0-0ac7-0328-94f22266a865",
+                "properties": {
+                  "width": 82,
+                  "height": 29,
+                  "name": "Label [03006070-8d20-1349-4b02-bea9fe2f7b0b]",
+                  "left": 395,
+                  "top": 896,
+                  "text": "Contact",
+                  "font.size": 34,
+                  "font.__type__": "sketch.framework.Font",
+                  "scaleWithFontSize": true
+                },
+                "tags": "Primitive,H3"
+              },
+              {
+                "type": "sketch.framework.Circle",
+                "version": 2,
+                "id": "deffcade-75d6-02e0-9d1f-745927b4fabf",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Circle",
+                "version": 2,
+                "id": "ed60d373-612a-c8bd-5d7d-d28a4e3f3c6d",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Circle",
+                "version": 2,
+                "id": "13e9eda2-0bb9-daeb-3e54-fc8dae18a7cc",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Circle",
+                "version": 2,
+                "id": "9bf8f59e-9b10-57f7-4006-79a16d9b361a",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Circle",
+                "version": 2,
+                "id": "5be17d82-9d8d-7127-03b0-d85dd120fe93",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Circle",
+                "version": 2,
+                "id": "11d7829a-cbdd-8ea2-32a4-5611ff5c7bb7",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Circle",
+                "version": 2,
+                "id": "91ed2feb-b88d-a9b9-cae3-349b2a388f74",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Circle",
+                "version": 2,
+                "id": "24c5009a-699c-fefb-6b73-8d159a38d558",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.GroupContainer",
+                "version": 1,
+                "id": "40407297-1222-f0d1-855e-1e8bc2ade8ad",
+                "properties": {
+                  "width": 422,
+                  "height": 250,
+                  "name": null,
+                  "left": 536,
+                  "top": 270,
+                  "enableGroupLocking": true
+                },
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Image",
+                    "version": 6,
+                    "id": "afbb58ed-a6e1-ff4c-c132-5c51ace79ebf",
+                    "properties": {
+                      "width": 422,
+                      "height": 202,
+                      "left": 0,
+                      "top": 0,
+                      "anchor.right": true,
+                      "anchor.bottom": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "source.__type__": "sketch.framework.ImageSourceNone",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.framework.GroupContainer",
+                    "version": 1,
+                    "id": "d86fec35-b839-99d7-a33f-cc8be16eac87",
+                    "properties": {
+                      "width": 422,
+                      "height": 44,
+                      "left": 0,
+                      "top": 206,
+                      "anchor.top": false,
+                      "anchor.right": true,
+                      "anchor.bottom": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "backgroundBrush.value": "web.videoPlayer.fill",
+                      "backgroundBrush.type": "resource",
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "borderBrush.value": "web.videoPlayer.stroke",
+                      "borderBrush.type": "resource",
+                      "borderBrush.__type__": "sketch.framework.Brush",
+                      "enableGroupLocking": true
+                    },
+                    "children": [
+                      {
+                        "type": "sketch.ui.common.Icon",
+                        "version": 6,
+                        "id": "f963aa0a-1bd3-1e9b-6173-5b583e8ae8f3",
+                        "properties": {
+                          "width": 40,
+                          "height": 40,
+                          "left": 16,
+                          "top": 2,
+                          "backgroundBrush.value": "icon.fill",
+                          "backgroundBrush.type": "resource",
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "source.name": "play",
+                          "source.__type__": "sketch.framework.ImageSourceFont",
+                          "clipSelf": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Icon",
+                        "version": 6,
+                        "id": "7e868f8b-9862-cb8d-13ed-547cc5b008c5",
+                        "properties": {
+                          "width": 35,
+                          "height": 35,
+                          "left": 342,
+                          "top": 5,
+                          "anchor.left": false,
+                          "anchor.right": true,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.value": "icon.fill",
+                          "backgroundBrush.type": "resource",
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "source.fontFamily": "NinjamockBasic",
+                          "source.name": "volume-medium",
+                          "source.__type__": "sketch.framework.ImageSourceFont",
+                          "clipSelf": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Icon",
+                        "version": 6,
+                        "id": "0dd11268-5293-7e40-a366-96fce72aa055",
+                        "properties": {
+                          "width": 25,
+                          "height": 25,
+                          "left": 380,
+                          "top": 10,
+                          "anchor.left": false,
+                          "anchor.right": true,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.value": "icon.fill",
+                          "backgroundBrush.type": "resource",
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "source.fontFamily": "NinjamockBasic",
+                          "source.name": "expand-2",
+                          "source.__type__": "sketch.framework.ImageSourceFont",
+                          "clipSelf": true
+                        }
+                      },
+                      {
+                        "type": "sketch.framework.TemplatedElement",
+                        "version": 1,
+                        "id": "3f9de8cc-fc5c-ab6a-ed20-01647f500878",
+                        "properties": {
+                          "width": 250,
+                          "height": 12,
+                          "name": "Asset [2239]",
+                          "left": 73,
+                          "top": 16,
+                          "anchor.right": true,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "templateId": "ui.web.templates.ProgressBarTemplate"
+                        },
+                        "states": {
+                          "default": {
+                            "properties": {}
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "9af28494-31a5-71cd-efee-650df4dee19c",
+                "properties": {
+                  "width": 106,
+                  "height": 35,
+                  "name": null,
+                  "left": 544.000304609687,
+                  "top": 566.96509518712537,
+                  "text": "Contact:",
+                  "font.size": 40,
+                  "font.__type__": "sketch.framework.Font",
+                  "scaleWithFontSize": true
+                },
+                "tags": "Primitive,H2"
+              },
+              {
+                "type": "sketch.framework.Circle",
+                "version": 2,
+                "id": "0d1a12f4-4d3c-2fbb-7ffd-308f9765098e",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Circle",
+                "version": 2,
+                "id": "5bf12112-bc3b-3a81-d4b8-ddd8f7f7668c",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Circle",
+                "version": 2,
+                "id": "142a63b9-7dad-82d9-e070-19597b5d0961",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Circle",
+                "version": 2,
+                "id": "1bf6a411-e664-ec90-5676-953117f9795d",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Circle",
+                "version": 2,
+                "id": "54aaf3e8-da53-46cb-c69f-69d7d0c05f07",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Circle",
+                "version": 2,
+                "id": "f2f6dfa1-6b96-7f9e-2751-2391ca198952",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Circle",
+                "version": 2,
+                "id": "9f665032-f767-6a59-3bfa-5076b7a01a00",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Circle",
+                "version": 2,
+                "id": "76495ef8-500a-0f78-06fe-c83552a24aec",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Circle",
+                "version": 2,
+                "id": "4f14843d-a1b7-16e4-b1bd-2e994fc47523",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Circle",
+                "version": 2,
+                "id": "8db5cbd8-d99d-7c9f-ce75-b38596d25538",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Circle",
+                "version": 2,
+                "id": "39079bff-11c9-ff2f-bd31-44cd0625bf2e",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.ui.common.TextBlock",
+                "version": 2,
+                "id": "93918f8c-46ac-72a1-4bbd-48806a50b551",
+                "properties": {
+                  "width": 205,
+                  "height": 73,
+                  "name": null,
+                  "left": 536,
+                  "top": 630,
+                  "multiLine": true,
+                  "clipSelf": true
+                },
+                "tags": "Primitive,P"
+              }
+            ],
+            "panelProperties": {
+              "type": "sketch.ui.common.PortableDevicePanel",
+              "version": 1,
+              "id": "a59dce89-c0df-0b36-609b-c273d57badac",
+              "properties": {
+                "width": 1024,
+                "height": 945,
+                "left": 1340,
+                "top": 760,
+                "clipSelf": true
+              }
+            }
+          }
+        ],
+        "isDeleted": false,
+        "groupId": "cb672032-30f3-de0e-0d94-b661486fe685",
+        "screenType": "Browser"
+      },
+      {
+        "version": 1,
+        "id": "107abf34-2dca-838b-207f-c07bf3c0347f",
+        "type": "sketch.ui.pages.PortableDevicePage",
+        "name": "our services",
+        "background": {
+          "value": null,
+          "type": null,
+          "lineWidth": 0,
+          "__type__": "sketch.framework.Brush"
+        },
+        "children": [
+          {
+            "type": "sketch.ui.common.PortableDevice",
+            "version": 1,
+            "id": "2c1fb8ff-e3e8-566b-0041-44a42be79b92",
+            "properties": {
+              "width": 3704,
+              "height": 2814
+            },
+            "children": [
+              {
+                "type": "sketch.ui.common.Image",
+                "version": 6,
+                "id": "b1cd56e3-f156-c708-a351-b35232f501e5",
+                "properties": {
+                  "width": 354,
+                  "height": 299,
+                  "name": "Image [6df9a314-a731-971f-fb3c-e2b0850b4315]",
+                  "left": 641,
+                  "top": 238,
+                  "source.__type__": "sketch.framework.ImageSourceNone",
+                  "clipSelf": true
+                }
+              },
+              {
+                "type": "sketch.ui.common.Image",
+                "version": 6,
+                "id": "18dc0359-32bf-f150-6877-faf92f4bf131",
+                "properties": {
+                  "width": 354,
+                  "height": 299,
+                  "name": "Image [6df9a314-a731-971f-fb3c-e2b0850b4315]",
+                  "left": 50.998172341876625,
+                  "top": 723,
+                  "source.__type__": "sketch.framework.ImageSourceNone",
+                  "clipSelf": true
+                }
+              },
+              {
+                "type": "sketch.ui.common.Image",
+                "version": 6,
+                "id": "e68ed27d-0e7a-e66d-f3bf-ec43e54fea83",
+                "properties": {
+                  "width": 354,
+                  "height": 299,
+                  "name": "Image [6df9a314-a731-971f-fb3c-e2b0850b4315]",
+                  "left": 621.99817234187663,
+                  "top": 1222,
+                  "source.__type__": "sketch.framework.ImageSourceNone",
+                  "clipSelf": true
+                }
+              },
+              {
+                "type": "sketch.framework.GroupContainer",
+                "version": 1,
+                "id": "c149f395-5734-cb36-747f-4ffc8e9066da",
+                "properties": {
+                  "width": 123,
+                  "height": 45,
+                  "name": null,
+                  "left": 87,
+                  "top": 10,
+                  "enableGroupLocking": true
+                },
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "0448956a-4087-1d28-8b81-92db261cbb99",
+                    "properties": {
+                      "width": 40,
+                      "height": 40,
+                      "left": 0,
+                      "top": 3,
+                      "anchor.bottom": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "source.__type__": "sketch.framework.ImageSourceNone",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "756f5065-adfd-bef0-192e-f43fec12e51a",
+                    "properties": {
+                      "width": 69,
+                      "height": 45,
+                      "left": 54,
+                      "top": 0,
+                      "anchor.left": false,
+                      "anchor.right": true,
+                      "anchor.bottom": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "text": "Logo",
+                      "textAlign": "center",
+                      "textVerticalAlign": "middle",
+                      "font.size": 46,
+                      "font.__type__": "sketch.framework.Font"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "sketch.framework.TemplatedElement",
+                "version": 1,
+                "id": "7f536e5b-e575-131f-7fc5-6f6abb0b4d3f",
+                "properties": {
+                  "width": 355,
+                  "height": 29,
+                  "name": null,
+                  "left": 601,
+                  "top": 18,
+                  "dropPositioning": "horizontal",
+                  "enableGroupLocking": true,
+                  "templateId": "ui.web.templates.LinkBarTemplate"
+                },
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "c54af755-655e-897f-3c3c-9141cd967433",
+                    "properties": {
+                      "width": 32,
+                      "height": 19,
+                      "name": "Label [1688]",
+                      "left": 0,
+                      "top": 5,
+                      "verticalAlignment": "center",
+                      "text": "Home",
+                      "font.underline": true,
+                      "font.color.value": "web.link.text",
+                      "font.color.type": "resource",
+                      "font.color.__type__": "sketch.framework.Brush",
+                      "font.__type__": "sketch.framework.Font",
+                      "scaleWithFontSize": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "c57db986-46f5-164c-b162-08937159afe9",
+                    "properties": {
+                      "width": 70,
+                      "height": 19,
+                      "name": "Label [1689]",
+                      "left": 70,
+                      "top": 5,
+                      "verticalAlignment": "center",
+                      "text": "Our services",
+                      "font.underline": true,
+                      "font.color.value": "web.link.text",
+                      "font.color.type": "resource",
+                      "font.color.__type__": "sketch.framework.Brush",
+                      "font.__type__": "sketch.framework.Font",
+                      "scaleWithFontSize": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "f744ddd6-2401-2c56-2e7a-ede1347e0228",
+                    "properties": {
+                      "width": 38,
+                      "height": 19,
+                      "name": "Label [1714]",
+                      "left": 184,
+                      "top": 5,
+                      "verticalAlignment": "center",
+                      "text": "About",
+                      "font.underline": true,
+                      "font.color.value": "web.link.text",
+                      "font.color.type": "resource",
+                      "font.color.__type__": "sketch.framework.Brush",
+                      "font.__type__": "sketch.framework.Font",
+                      "scaleWithFontSize": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "0f797369-03c6-c457-72f0-0d418bb45928",
+                    "properties": {
+                      "width": 27,
+                      "height": 19,
+                      "name": "Label [1714]",
+                      "left": 254,
+                      "top": 5,
+                      "verticalAlignment": "center",
+                      "text": "Blog",
+                      "font.underline": true,
+                      "font.color.value": "web.link.text",
+                      "font.color.type": "resource",
+                      "font.color.__type__": "sketch.framework.Brush",
+                      "font.__type__": "sketch.framework.Font",
+                      "scaleWithFontSize": true
+                    }
+                  }
+                ],
+                "states": {
+                  "default": {
+                    "properties": {}
+                  }
+                }
+              },
+              {
+                "type": "sketch.ui.common.Icon",
+                "version": 6,
+                "id": "983b4fc2-de70-7de0-a863-2433f4cd3f21",
+                "properties": {
+                  "width": 19,
+                  "height": 24,
+                  "name": "Icon [49c02a84-1017-775f-a96c-13c0f1b4935b]",
+                  "left": 968,
+                  "top": 20,
+                  "backgroundBrush.value": "rgba(104,104,104,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush",
+                  "source.width": 64,
+                  "source.height": 64,
+                  "source.url": "https://cdn2.iconfinder.com/data/icons/social-messaging-productivity-1/128/search-64.png",
+                  "source.__type__": "sketch.framework.ImageSourceURL",
+                  "clipSelf": true
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "21140292-4d39-a963-ec58-994b56634bce",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "91463ee1-2ef9-185c-b8a3-dca189b5580c",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.GroupContainer",
+                "version": 1,
+                "id": "38dd9d3b-5696-2f26-f27f-25697ba73c31",
+                "properties": {
+                  "width": 1022,
+                  "height": 112,
+                  "left": 0,
+                  "top": 1725,
+                  "enableGroupLocking": true
+                },
+                "children": [
+                  {
+                    "type": "sketch.framework.Rectangle",
+                    "version": 3,
+                    "id": "bb2d6550-c7a9-0404-cdbc-20344e5e95a2",
+                    "properties": {
+                      "width": 1022,
+                      "height": 112,
+                      "left": 0,
+                      "top": 0
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "b5855f04-378d-b6de-3a16-0a40ad206c74",
+                    "properties": {
+                      "width": 106,
+                      "height": 29,
+                      "name": "Label [03006070-8d20-1349-4b02-bea9fe2f7b0b]",
+                      "left": 71.998553103985614,
+                      "top": 57.113440641842317,
+                      "text": "Copyright ",
+                      "font.size": 34,
+                      "font.__type__": "sketch.framework.Font",
+                      "scaleWithFontSize": true
+                    },
+                    "tags": "Primitive,H3"
+                  },
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "b46a17d2-fb37-3cdd-6583-c8c2f35c96d1",
+                    "properties": {
+                      "width": 31,
+                      "height": 33.886559358157683,
+                      "name": null,
+                      "left": 34,
+                      "top": 57.113440641842317,
+                      "backgroundBrush.value": "rgba(104,104,104,1)",
+                      "backgroundBrush.type": "color",
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "source.width": 64,
+                      "source.height": 64,
+                      "source.url": "https://cdn2.iconfinder.com/data/icons/color-svg-vector-icons-part-2/512/copyright_right_of_first_publication-64.png",
+                      "source.__type__": "sketch.framework.ImageSourceURL",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "7229d326-177b-7378-9809-8bc698d2c939",
+                    "properties": {
+                      "width": 188,
+                      "height": 29,
+                      "name": null,
+                      "left": 402,
+                      "top": 59.855167915427046,
+                      "text": "Terms & conditions",
+                      "font.size": 34,
+                      "font.__type__": "sketch.framework.Font",
+                      "scaleWithFontSize": true
+                    },
+                    "tags": "Primitive,H3"
+                  },
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "3663b91e-2353-9b8b-5bf2-ffd774ddc902",
+                    "properties": {
+                      "width": 32,
+                      "height": 35,
+                      "name": null,
+                      "left": 802,
+                      "top": 9,
+                      "backgroundBrush.value": "rgba(104,104,104,1)",
+                      "backgroundBrush.type": "color",
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "source.width": 64,
+                      "source.height": 64,
+                      "source.url": "https://cdn3.iconfinder.com/data/icons/picons-social/57/03-twitter-64.png",
+                      "source.__type__": "sketch.framework.ImageSourceURL",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "a4fcb1a8-3b57-4abb-3e2a-cb7606bf482a",
+                    "properties": {
+                      "width": 32,
+                      "height": 28,
+                      "name": null,
+                      "left": 897,
+                      "top": 12,
+                      "backgroundBrush.value": "rgba(104,104,104,1)",
+                      "backgroundBrush.type": "color",
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "source.width": 64,
+                      "source.height": 64,
+                      "source.url": "https://cdn4.iconfinder.com/data/icons/picons-social/57/24-snapchat-2-64.png",
+                      "source.__type__": "sketch.framework.ImageSourceURL",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "f92e2f84-13a2-775f-f6f9-28c35234eaaa",
+                    "properties": {
+                      "width": 38,
+                      "height": 28,
+                      "name": null,
+                      "left": 850,
+                      "top": 12,
+                      "backgroundBrush.value": "rgba(104,104,104,1)",
+                      "backgroundBrush.type": "color",
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "source.width": 64,
+                      "source.height": 64,
+                      "source.url": "https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/Facebook-64.png",
+                      "source.__type__": "sketch.framework.ImageSourceURL",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "6d9bafca-7ec2-4da4-7bd9-7f3af36ab243",
+                    "properties": {
+                      "width": 33,
+                      "height": 35,
+                      "name": null,
+                      "left": 945,
+                      "top": 9,
+                      "backgroundBrush.value": "rgba(104,104,104,1)",
+                      "backgroundBrush.type": "color",
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "source.width": 64,
+                      "source.height": 64,
+                      "source.url": "https://cdn3.iconfinder.com/data/icons/picons-social/57/38-instagram-64.png",
+                      "source.__type__": "sketch.framework.ImageSourceURL",
+                      "clipSelf": true
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "ef4568a6-b892-e9b1-e38d-4b629c9691f5",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "105efdf2-0fb2-677a-6dde-9e169805951e",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "798cedd8-5908-93b2-b984-d20a33b82886",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "3689c508-9170-0327-b682-3764ff60e420",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "1d4188be-cdea-63c9-1770-ba0dad758446",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "3593a9d4-f669-fe41-1826-9d84f8f30329",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "5fa8d698-8254-6f8a-4d02-5f798bb873b9",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "ed182bef-e3c3-4250-27b9-42b200bcb570",
+                "properties": {
+                  "width": 177,
+                  "height": 46,
+                  "name": null,
+                  "left": 50.998172341876625,
+                  "top": 133.20942887724743,
+                  "text": "Our Service",
+                  "font.size": 53,
+                  "font.__type__": "sketch.framework.Font",
+                  "scaleWithFontSize": true
+                },
+                "tags": "Primitive,H1"
+              },
+              {
+                "type": "sketch.framework.GroupContainer",
+                "version": 1,
+                "id": "518e6fff-4f1a-9a09-696e-6ea1d05b7cbb",
+                "properties": {
+                  "width": 502.00182765812337,
+                  "height": 397,
+                  "left": 50.998172341876625,
+                  "top": 238,
+                  "enableGroupLocking": true
+                },
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "67157880-e2dd-2371-9b4d-427007458e96",
+                    "properties": {
+                      "width": 93,
+                      "height": 29,
+                      "name": null,
+                      "left": 0,
+                      "top": 0,
+                      "text": "Heading 2",
+                      "font.size": 34,
+                      "font.__type__": "sketch.framework.Font",
+                      "scaleWithFontSize": true
+                    },
+                    "tags": "Primitive,H2"
+                  },
+                  {
+                    "type": "sketch.ui.common.TextBlock",
+                    "version": 2,
+                    "id": "23d9567c-779f-1c43-2b6d-ec3d68e10afb",
+                    "properties": {
+                      "width": 502,
+                      "height": 359,
+                      "name": null,
+                      "left": 0.0018276581233749312,
+                      "top": 38,
+                      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
+                      "multiLine": true,
+                      "clipSelf": true
+                    },
+                    "tags": "Primitive,P"
+                  }
+                ]
+              },
+              {
+                "type": "sketch.framework.GroupContainer",
+                "version": 1,
+                "id": "a6b5e335-7f8c-82cc-73b1-b9cffda1ff9d",
+                "properties": {
+                  "width": 502.00182765812337,
+                  "height": 397,
+                  "left": 15,
+                  "top": 1212,
+                  "enableGroupLocking": true
+                },
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "115b2175-19b5-8847-525e-6c75e9ef0213",
+                    "properties": {
+                      "width": 93,
+                      "height": 29,
+                      "name": null,
+                      "left": 0,
+                      "top": 0,
+                      "text": "Heading 2",
+                      "font.size": 34,
+                      "font.__type__": "sketch.framework.Font",
+                      "scaleWithFontSize": true
+                    },
+                    "tags": "Primitive,H2"
+                  },
+                  {
+                    "type": "sketch.ui.common.TextBlock",
+                    "version": 2,
+                    "id": "8733e1cb-dd63-d815-2edf-d6a55fe04f6e",
+                    "properties": {
+                      "width": 502,
+                      "height": 359,
+                      "name": null,
+                      "left": 0.0018276581233749312,
+                      "top": 38,
+                      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
+                      "multiLine": true,
+                      "clipSelf": true
+                    },
+                    "tags": "Primitive,P"
+                  }
+                ]
+              },
+              {
+                "type": "sketch.framework.GroupContainer",
+                "version": 1,
+                "id": "509de49d-5310-c81b-3056-d7c77661e281",
+                "properties": {
+                  "width": 502.00182765812337,
+                  "height": 397,
+                  "left": 502.00182765812337,
+                  "top": 723,
+                  "enableGroupLocking": true
+                },
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "89755700-308d-64bd-d271-94c0d0864279",
+                    "properties": {
+                      "width": 93,
+                      "height": 29,
+                      "name": null,
+                      "left": 0,
+                      "top": 0,
+                      "text": "Heading 2",
+                      "font.size": 34,
+                      "font.__type__": "sketch.framework.Font",
+                      "scaleWithFontSize": true
+                    },
+                    "tags": "Primitive,H2"
+                  },
+                  {
+                    "type": "sketch.ui.common.TextBlock",
+                    "version": 2,
+                    "id": "26eaab06-522a-642e-38f4-6dc2f141459b",
+                    "properties": {
+                      "width": 502,
+                      "height": 359,
+                      "name": null,
+                      "left": 0.0018276581233749312,
+                      "top": 38,
+                      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
+                      "multiLine": true,
+                      "clipSelf": true
+                    },
+                    "tags": "Primitive,P"
+                  }
+                ]
+              },
+              {
+                "type": "sketch.framework.TemplatedElement",
+                "version": 1,
+                "id": "6d939c2b-584c-e69a-d076-5049d7761c68",
+                "properties": {
+                  "width": 136,
+                  "height": 53,
+                  "name": null,
+                  "left": 55.999999999999773,
+                  "top": 1049,
+                  "templateId": "ui.web.templates.ButtonTemplate",
+                  "text": "Get offer"
+                },
+                "states": {
+                  "default": {
+                    "properties": {
+                      "borderBrush.value": "rgba(20,19,20,1)",
+                      "borderBrush.type": "color",
+                      "borderBrush.lineWidth": 0,
+                      "borderBrush.__type__": "sketch.framework.Brush"
+                    }
+                  }
+                }
+              },
+              {
+                "type": "sketch.framework.TemplatedElement",
+                "version": 1,
+                "id": "37fa3992-fd8e-8972-df99-83c844771b19",
+                "properties": {
+                  "width": 136,
+                  "height": 53,
+                  "name": null,
+                  "left": 621.99817234187663,
+                  "top": 1556,
+                  "templateId": "ui.web.templates.ButtonTemplate",
+                  "text": "Get offer"
+                },
+                "states": {
+                  "default": {
+                    "properties": {
+                      "borderBrush.value": "rgba(20,19,20,1)",
+                      "borderBrush.type": "color",
+                      "borderBrush.lineWidth": 0,
+                      "borderBrush.__type__": "sketch.framework.Brush"
+                    }
+                  }
+                }
+              },
+              {
+                "type": "sketch.framework.TemplatedElement",
+                "version": 1,
+                "id": "5e34ae92-a4bd-8f1a-f287-7085aece40b6",
+                "properties": {
+                  "width": 136,
+                  "height": 53,
+                  "name": null,
+                  "left": 643,
+                  "top": 574,
+                  "templateId": "ui.web.templates.ButtonTemplate",
+                  "text": "Get offer"
+                },
+                "states": {
+                  "default": {
+                    "properties": {
+                      "borderBrush.value": "rgba(20,19,20,1)",
+                      "borderBrush.type": "color",
+                      "borderBrush.lineWidth": 0,
+                      "borderBrush.__type__": "sketch.framework.Brush"
+                    }
+                  }
+                }
+              }
+            ],
+            "panelProperties": {
+              "type": "sketch.ui.common.PortableDevicePanel",
+              "version": 1,
+              "id": "a59dce89-c0df-0b36-609b-c273d57badac",
+              "properties": {
+                "width": 1024,
+                "height": 1834,
+                "left": 1340,
+                "top": 760,
+                "clipSelf": true
+              }
+            }
+          }
+        ],
+        "isDeleted": false,
+        "groupId": "cb672032-30f3-de0e-0d94-b661486fe685",
+        "screenType": "Browser"
+      }
+    ],
+    "resources": {
+      "templates": {},
+      "colorPallet": []
+    },
+    "modelVersion": 5,
+    "version": "184bd9cd-628a-4cf3-8a3d-f946ec9ded86",
+    "pageStatuses": [],
+    "projectType": "WebProject",
+    "sharedPageStatuses": [
+      "inProgress",
+      "designComplete",
+      "approved"
+    ]
+  }
+}
