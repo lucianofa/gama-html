@@ -1,0 +1,41 @@
+{
+    background-color: black;
+}
+
+nav {
+    width: 10%;
+    background-color: white;
+    color: red;
+    font-family: Arial;
+    font-size: 11px;
+}
+
+header {
+    width: 5%;
+    background-color: gray;
+}
+
+#esquerda {
+    width: 10%;
+    background-color: yellow;
+    color: blue;
+    float: left;
+}
+
+#direita {
+    width: 10%;
+    background-color: green;
+    color: red;
+    float: right;
+}
+
+footer {
+    width: 5%;
+    background-color: orange;
+    clear: both;
+}
+
+.container {
+    width: 50%;
+    background-color: red;
+}
