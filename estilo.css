@@ -46,7 +46,7 @@ a {
 
 #titulodestaque {
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
+   /* display: flex;*/
     justify-content: center;
     text-shadow: blue 1px 1px 5px;
     font-size: 25px;
